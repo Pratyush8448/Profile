@@ -2,153 +2,147 @@
 <html>
 <head>
     <title>My Profile</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS linked -->
 </head>
-<body style="background-color: #000000; font-family: 'Times New Roman', Times, serif; margin: 0; padding: 0;">
-    <div style="max-width: 800px; margin: 40px auto; padding: 30px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-        <h1 style="text-align: center; color: #000000; margin-bottom: 24px;">Pratyush Pulak Nishank</h1>
-        <div style="display: flex; align-items: center; margin-bottom: 32px;">
-            <img src="profile.jpg" alt="Profile Picture" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid #333; margin-right: 32px;">
-            <div>
-                <p style="font-size: 18px; color: #444; margin-bottom: 10px;">
-                    <strong>Contact:</strong> pratyushnishank286@gmail.com
-                </p>
-                <p style="font-size: 18px; color: #444;">
-                    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/posts/pratyush-pulak-nishank-02a10b311_github-pratyush8448devopsproject-activity-7354970801936244736-8QvH?utm_source=share&utm_medium=member_ios&rcm=ACoAAE83ZmIBhQS4_dynlaIS1HILH5hziqTDwOE " style="color: #0077b5;">PratyushNishank</a>
+<body>
+    <div class="container">
+        <h1 class="name">Pratyush Pulak Nishank</h1>
+        <div class="profile-section">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="contact-info">
+                <p><strong>Contact:</strong> pratyushnishank286@gmail.com</p>
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/posts/pratyush-pulak-nishank-02a10b311_github-pratyush8448devopsproject-activity-7354970801936244736-8QvH?utm_source=share&utm_medium=member_ios&rcm=ACoAAE83ZmIBhQS4_dynlaIS1HILH5hziqTDwOE">
+                        PratyushNishank
+                    </a>
                 </p>
             </div>
         </div>
-        <h2 style="color: #222; background: #e0e0e0; padding: 10px 0; text-align: center; border-radius: 6px;">Educational Details</h2>
-        <table style="width: 100%; border-collapse: collapse; margin-top: 18px;">
+
+        <h2 class="section-title">Educational Details</h2>
+        <table class="edu-table">
             <thead>
-                <tr style="background-color: #333; color: #fff;">
-                    <th style="padding: 12px; border: 1px solid #ccc;">Institute Name</th>
-                    <th style="padding: 12px; border: 1px solid #ccc;">Board</th>
-                    <th style="padding: 12px; border: 1px solid #ccc;">Year of Passing</th>
-                    <th style="padding: 12px; border: 1px solid #ccc;">Marks</th>
+                <tr>
+                    <th>Institute Name</th>
+                    <th>Board</th>
+                    <th>Year of Passing</th>
+                    <th>Marks</th>
                 </tr>
             </thead>
             <tbody>
-                <tr style="background-color: #f9f9f9;">
-                    <td style="padding: 10px; border: 1px solid #ccc;">Silicon University</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">University</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">2025</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">4</td>
+                <tr>
+                    <td>Silicon University</td>
+                    <td>University</td>
+                    <td>2025</td>
+                    <td>4</td>
                 </tr>
-                <tr style="background-color: #f1f1f1;">
-                    <td style="padding: 10px; border: 1px solid #ccc;">Vimala Convent School</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">ICSE</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">2020</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">90.0</td>
+                <tr>
+                    <td>Vimala Convent School</td>
+                    <td>ICSE</td>
+                    <td>2020</td>
+                    <td>90.0</td>
                 </tr>
-                <tr style="background-color: #f9f9f9;">
-                    <td style="padding: 10px; border: 1px solid #ccc;">Young Blood Public School</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">CBSE</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">2022</td>
-                    <td style="padding: 10px; border: 1px solid #ccc;">90.0</td>
+                <tr>
+                    <td>Young Blood Public School</td>
+                    <td>CBSE</td>
+                    <td>2022</td>
+                    <td>90.0</td>
                 </tr>
             </tbody>
         </table>
+
         <br>
-        <table style = "border: 1px solid black; display : block; margin : 0 auto;">
+
+        <table class="timetable">
             <thead>
-                <th style = "border: 1px solid black; text-align: center;"></th>
-                <th style = "border: 1px solid black; text-align: center;">08:00 - 08:55</th>
-                <th style = "border: 1px solid black; text-align: center;">08:55 - 09:50</th>
-                <th style = "border: 1px solid black; text-align: center;">09:50 - 10:45</th>
-                <th style = "border: 1px solid black; text-align: center;">10:45 - 11:40</th>
-                <th style = "border: 1px solid black; text-align: center;">11:40 - 12:35</th>
-                <th style = "border: 1px solid black; text-align: center;">12:35 - 01:30</th>
-                <th style = "border: 1px solid black; text-align: center;">01:30 - 02:25</th>
-                <th style = "border: 1px solid black; text-align: center;">02:25 - 03:20</th>
+                <tr>
+                    <th></th>
+                    <th>08:00 - 08:55</th>
+                    <th>08:55 - 09:50</th>
+                    <th>09:50 - 10:45</th>
+                    <th>10:45 - 11:40</th>
+                    <th>11:40 - 12:35</th>
+                    <th>12:35 - 01:30</th>
+                    <th>01:30 - 02:25</th>
+                    <th>02:25 - 03:20</th>
+                </tr>
             </thead>
-            <tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Monday</td>
-				<td>Consultancy Hours</td>
-				<td>Computer Networks</td>
-				<td>Formal Language and Automata Theory</td>
-				<td>LUNCH</td>
-                <td>Skill Lab and Project-I</td>
-                <td>Skill Lab and Project-I</td>
-                <td>Machine Learning</td>
-                <td>Data Mining and Data Warehousing</td>
-		    </tr>
-			<tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Tuesday</td>
-				<td>IWT Lab</td>
-				<td>IWT Lab</td>
-				<td>RealTime Systems</td>
-				<td>LUNCH</td>
-                <td>Machine Learning</td>
-                <td>UHVPE</td>
-                <td>Skill Lab and Project-I</td>
-                <td>Skill Lab and Project-I</td>
-		    </tr>
-			<tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Wednesday</td>
-				<td>Consultancy Hours</td>
-				<td>Consultancy Hours</td>
-				<td>SSIPS Lab</td>
-				<td>SSIPS Lab</td>
-                <td>LUNCH</td>
-                <td>Formal Language and Automata Theory</td>
-                <td>Computer Networks</td>
-                <td>Realtime Systems</td>
-            </tr>
-            <tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Thursday</td>
-				<td>Data Mining and Data Warehousing</td>
-				<td>Formal Language and Automata Theory</td>
-				<td>UHVPE</td>
-				<td>LUNCH</td>
-                <td>IWT Lab</td>
-                <td>IWT Lab</td>
-                <td>Machine Learning</td>
-                <td>Computer Networks</td>
-            </tr>
-            <tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Friday</td>
-				<td>Computer Networks Lab</td>
-				<td>Computer Networks Lab</td>
-				<td>Realtime Systems</td>
-				<td>LUNCH</td>
-                <td>SSIPS Lab</td>
-				<td>SSIPS Lab</td>
-                <td>Data Mining and Data Warehousing</td>
-                <td>Machine Learning</td>
-            </tr>
-            <tr>
-				<th style = "border: 1px solid black; text-align: center; background-color: rgb(95, 103, 94);">Saturday</td>
-				<td>Consultancy Hours</td>
-				<td>Consultancy Hours</td>
-				<td>Consultancy Hours</td>
-				<td>Consultancy Hours</td>
-                <td>Consultancy Hours</td>
-                <td>Consultancy Hours</td>
-                <td>Consultancy Hours</td>
-                <td>Consultancy Hours</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <th class="day">Monday</th>
+                    <td>Consultancy Hours</td>
+                    <td>Computer Networks</td>
+                    <td>Formal Language and Automata Theory</td>
+                    <td>LUNCH</td>
+                    <td colspan="2">Skill Lab and Project-I</td>
+                    <td>Machine Learning</td>
+                    <td>Data Mining and Data Warehousing</td>
+                </tr>
+                <tr>
+                    <th class="day">Tuesday</th>
+                    <td colspan="2">IWT Lab</td>
+                    <td>RealTime Systems</td>
+                    <td>LUNCH</td>
+                    <td>Machine Learning</td>
+                    <td>UHVPE</td>
+                    <td colspan="2">Skill Lab and Project-I</td>
+                </tr>
+                <tr>
+                    <th class="day">Wednesday</th>
+                    <td colspan="2">Consultancy Hours</td>
+                    <td colspan="2">SSIPS Lab</td>
+                    <td>LUNCH</td>
+                    <td>Formal Language and Automata Theory</td>
+                    <td>Computer Networks</td>
+                    <td>Realtime Systems</td>
+                </tr>
+                <tr>
+                    <th class="day">Thursday</th>
+                    <td>Data Mining and Data Warehousing</td>
+                    <td>Formal Language and Automata Theory</td>
+                    <td>UHVPE</td>
+                    <td>LUNCH</td>
+                    <td colspan="2">IWT Lab</td>
+                    <td>Machine Learning</td>
+                    <td>Computer Networks</td>
+                </tr>
+                <tr>
+                    <th class="day">Friday</th>
+                    <td colspan="2">Computer Networks Lab</td>
+                    <td>Realtime Systems</td>
+                    <td>LUNCH</td>
+                    <td colspan="2">SSIPS Lab</td>
+                    <td>Data Mining and Data Warehousing</td>
+                    <td>Machine Learning</td>
+                </tr>
+                <tr>
+                    <th class="day">Saturday</th>
+                    <td colspan="8">Consultancy Hours</td>
+                </tr>
+            </tbody>
         </table>
 
-        <h2>Educational Details</h2>
-        <ol>
-            <h3>
-                Languages
-            </h3>
-            <li>C</li>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Python</li>
-        </ol>
-        <ol>
-            <h3>
-                Database
-            </h3>
-            <li>MySQL</li>
-            <li>Oracle</li>
-        </ol>
-        <ol>
+        <h2 class="section-title">Skills</h2>
+        <div class="skills">
+            <h3>Languages</h3>
+            <ol>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+            </ol>
+            <h3>Database</h3>
+            <ol>
+                <li>MySQL</li>
+                <li>Oracle</li>
+            </ol>
             <h3>Scripting Language</h3>
-            <li>JavaScript</li>
-            <li>PHP</li>
-        </ol>
-
+            <ol>
+                <li>JavaScript</li>
+                <li>PHP</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
